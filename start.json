@@ -5,11 +5,11 @@
   "background": "https://raw.githubusercontent.com/nekto966/msx/main/img/bg.png", 
   "headline": "NoName Media Station X App Store server 2",
   "version": "1.0.0",
-  "parameter": "content:https://raw.githubusercontent.com/ercua/msx01/start.jsonn",
+  "parameter": "content:https://raw.githubusercontent.com/ercua/msx/start.jsonn",
   "action": "[settings:validate_links:0|home]", 
-  "dictionary": "https://raw.githubusercontent.com/ercua/msx01/main/lang/ru.json",
+  "dictionary": "https://raw.githubusercontent.com/ercua/msx/main/lang/ru.json",
     "launcher": {
-        "image": "https://raw.githubusercontent.com/nekto966/msx/main/img/noname.png"},
+        "image": "https://raw.githubusercontent.com/ercua/msx/main/img/noname.png"},
    "template": {
         "type": "separate",
       "layout": "0,0,2,3",
@@ -19,12 +19,12 @@
    "items": [
       {
 		"title":"Lampa",
-         "image": "https://raw.githubusercontent.com/ercua/msx01//main/img/lampa.jpg",
+         "image": "https://raw.githubusercontent.com/ercua/msx//main/img/lampa.jpg",
           "action": "link:http://lampa.mx/"
       },
       {
 		"title":"Atodo",
-         "image": "https://raw.githubusercontent.com/ercua/msx01/main/img/atodo.png",
+         "image": "https://raw.githubusercontent.com/ercua/msx/main/img/atodo.png",
           "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
       },
       {
